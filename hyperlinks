@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h1>html hyperlink demonstration</h1>
+    <p>hyper links in html are created using the <a> tag with the herf attribute to specify the link destination</p>
+    <h1>Basic Hyperlink</h1>
+    <p>
+        <a href="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg" target="_blank">cat</a>
+    </p>    
+    <img src="https://cdn.britannica.com/39/226539-050-D21D7721/Portrait-of-a-cat-with-whiskers-visible.jpg" alt="cat.juju" width="500" height="500">
+    
+</body>
+</html>

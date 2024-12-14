@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h1>HTML LISTS DEMONSTRATION</h1>
+    <h2>unordered list</h2>
+    <ul>
+        <li>cat</li>
+        <li>dog</li>
+    </ul>
+    <h2>ordered list</h2>
+    <ol>
+        <li>cat</li>
+        <li>dog</li>
+    </ol>
+    <h2>nested list</h2>
+    <ul>
+        <li>2 year</li>
+        <ul>
+            <li>section a</li>
+        </ul>
+        <li>3 year</li>
+        <ul>
+            <li>section b</li>
+        </ul>
+    
+    </ul>
+
+    <h2>ordered list inside unordered list</h2>
+    <ul>
+        <li>programming language</li>
+        <ol>
+            <li>cat</li>
+            <li>dog</li>
+        </ol>
+        <li>database</li>
+        <ol>
+            <li>snake</li>
+            <li>tom</li>
+        </ol>
+    </ul>
+    <h2>difinition list</h2>
+    <dl>
+        <dt>cat</dt>
+        <dd>white fur pet</dd>
+        <dt>dog</dt>
+        <dd>brown fur pet</dd>
+    </dl>
+</body>
+</html>

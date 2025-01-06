@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h1>Registration Form</h1>
+    <form action="/action page.php">
+        <lable for="fname">first name:</lable>  
+        <input type="text" id="fname" name:"fanme" value:""><br>
+        <lable for="password">password:</lable>
+        <input type="text" id="password" name:"password" value:""><br>
+        <label for="age">age:</label>
+        <input type="text" id="age" name:"age" value:><br>
+    <h2>gender</h2>
+        <input type="radio" id="css" name:"gender" value:"male">
+        <label for="male">Male</label>
+        <input type="radio" id="css" name:"gender" value:"female">
+        <label for="female">Female</label>
+        <input type="radio" id="css" name:"gender" value:"others">
+        <label for="others">Others</label>
+    <h2>Hobbies</h2>
+        <input type="checkbox" id="css" name:"hobby" value:"reading">
+        <label for="reading">Reading</label><br>
+        <input type="checkbox" id="css" name"hobby" value:"sport">
+        <lable for="sport">Sport</lable><br>
+        <input type="checkbox" id:"css" name:"hobby" value:"travelling">
+        <label for="travelling">Travelling</label><br><br>
+        <input type="submit" value:"submit">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The iframe element</h1>
+ 
+
+<iframe src="https://vtricks.in/lms/public/frontend/infixlmstheme/img/blog/full-stack-web-development.jpg" width="800" height="450" style="border:1px solid black">
+</iframe>
+<a href="https://vtricks.in/lms/blog-details/what-is-full-stack-development" target="https://vtricks.in/lms/blog-details/what-is-full-stack-development">visit example website</a>
+</body>
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Custom Men's Clothing</title>
+  <style>
+    /* Basic Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background-color: #fff;
+      color: #222;
+    }
+
+    a {
+      color: #c49a6c; /* gold accent */
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Container */
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px 0;
+    }
+
+    /* Hero */
+    .hero {
+      background: url('https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      color: #fff;
+      padding-left: 50px;
+      text-shadow: 0 0 10px rgba(0,0,0,0.7);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+      max-width: 600px;
+    }
+
+    .btn-primary {
+      background-color: #c49a6c;
+      color: #fff;
+      padding: 15px 30px;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: #a6784d;
+    }
+
+    /* Section Titles */
+    h2.section-title {
+      text-align: center;
+      margin-bottom: 40px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-size: 2.5rem;
+      color: #222;
+    }
+
+    /* How It Works */
+    .how-it-works {
+      background-color: #f9f6f0;
+      padding: 50px 0;
+    }
+
+    .steps {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .step {
+      background: #fff;
+      flex: 1 1 250px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .step h3 {
+      margin-bottom: 15px;
+      font-family: 'Playfair Display', serif;
+      color: #c49a6c;
+    }
+
+    /* Featured Products */
+    .featured {
+      padding: 50px 0;
+    }
+
+    .products {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .product-card {
+      flex: 1 1 280px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      background: #fff;
+    }
+
+    .product-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .product-card h4 {
+      padding: 15px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #222;
+    }
+
+    /* Why Choose Us */
+    .why-us {
+      background-color: #f9f6f0;
+      padding: 50px 0;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .feature {
+      flex: 1 1 280px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .feature h3 {
+      margin-bottom: 10px;
+      font-family: 'Playfair Display', serif;
+      color: #c49a6c;
+    }
+
+    /* Testimonials */
+    .testimonials {
+      padding: 50px 0;
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .testimonial {
+      font-style: italic;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero {
+        align-items: center;
+        padding-left: 20px;
+        text-align: center;
+      }
+
+      .steps, .products, .features {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Tailored Perfection. Delivered to You.</h1>
+    <p>Experience the luxury of custom-made men's clothing designed to fit you perfectly.</p>
+    <button class="btn-primary">Start Customizing</button>
+  </section>
+
+  <!-- How It Works -->
+  <section class="how-it-works container">
+    <h2 class="section-title">How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <h3>1. Choose Your Style</h3>
+        <p>Select from a wide range of fabrics, cuts, and designs to create your perfect look.</p>
+      </div>
+      <div class="step">
+        <h3>2. Enter Your Measurements</h3>
+        <p>Use our easy guide or expert help to provide your exact measurements for a flawless fit.</p>
+      </div>
+      <div class="step">
+        <h3>3. Receive Your Custom Fit</h3>
+        <p>Get your made-to-measure garment delivered straight to your door with care.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="featured container">
+    <h2 class="section-title">Our Collections</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80" alt="Custom Suits" />
+        <h4>Custom Suits</h4>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80" alt="Tailored Shirts" />
+        <h4>Tailored Shirts</h4>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80" alt="Ethnic Wear" />
+        <h4>Ethnic Wear</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="why-us container">
+    <h2 class="section-title">Why Choose Us</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Premium Fabrics</h3>
+        <p>We source the finest materials for an unmatched feel and durability.</p>
+      </div>
+      <div class="feature">
+        <h3>Guaranteed Fit</h3>
+        <p>Our expert tailors ensure every garment fits your body perfectly.</p>
+      </div>
+      <div class="feature">
+        <h3>Handcrafted Tailoring</h3>
+        <p>Each piece is crafted with attention to detail and quality workmanship.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials container">
+    <h2 class="section-title">What Our Customers Say</h2>
+    <p class="testimonial">"The best fitting suit I've ever owned. Truly custom and comfortable!" — John D.</p>
+    <p class="testimonial">"Excellent service and quality fabrics. Highly recommended." — Michael S.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Custom Men's Clothing. All rights reserved.</p>
+    <p>
+      <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+    </p>
+  </footer>
+
+</body>
+</html>
